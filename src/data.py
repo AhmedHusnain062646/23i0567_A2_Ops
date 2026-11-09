@@ -1,8 +1,8 @@
 # src/data.py
 import pandas as pd
 import tensorflow as tf
-
-IMG_SIZE = 224
+import os
+IMG_SIZE = int(os.environ.get("IMG_SIZE", 128))
 BATCH = 32
 AUTOTUNE = tf.data.AUTOTUNE
 
