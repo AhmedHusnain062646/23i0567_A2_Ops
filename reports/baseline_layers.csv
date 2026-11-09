@@ -1,0 +1,22 @@
+layer,output_shape,params
+image,"(None, 224, 224, 3)",0
+rescale,"(None, 224, 224, 3)",0
+conv1,"(None, 224, 224, 32)",864
+bn1,"(None, 224, 224, 32)",128
+relu1,"(None, 224, 224, 32)",0
+pool1,"(None, 112, 112, 32)",0
+conv2,"(None, 112, 112, 64)",18432
+bn2,"(None, 112, 112, 64)",256
+relu2,"(None, 112, 112, 64)",0
+pool2,"(None, 56, 56, 64)",0
+conv3,"(None, 56, 56, 128)",73728
+bn3,"(None, 56, 56, 128)",512
+relu3,"(None, 56, 56, 128)",0
+pool3,"(None, 28, 28, 128)",0
+conv4,"(None, 28, 28, 128)",147456
+bn4,"(None, 28, 28, 128)",512
+relu4,"(None, 28, 28, 128)",0
+pool4,"(None, 14, 14, 128)",0
+gap,"(None, 128)",0
+dropout,"(None, 128)",0
+prob_ai,"(None, 1)",129

@@ -5,3 +5,5 @@ __pycache__/
 mlruns/
 *.keras
 *.h5
+*.db
+mlruns_toy/

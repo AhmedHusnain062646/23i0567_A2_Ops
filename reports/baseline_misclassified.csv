@@ -1,0 +1,11 @@
+path,label,prob_ai,pred,conf
+data\raw\RealArt\RealArt\people-strategy_1200x700.jpg,0,0.4824712,1,0.017528802
+data\raw\RealArt\RealArt\3-the-photo-academy-portrait-Yousuf-Karsh.jpeg,0,0.48272786,1,0.017272145
+data\raw\RealArt\RealArt\humpback-whale-1680735293.jpg,0,0.48296803,1,0.017031968
+data\raw\RealArt\RealArt\Portrait197a-1280x640.jpg,0,0.48344466,1,0.01655534
+data\raw\RealArt\RealArt\picturesque-scenery-waterfall-flowing-through-260nw-2360180703.jpg,0,0.48418373,1,0.015816271
+data\raw\RealArt\RealArt\Cheetah-wildlife-hero.jpg,0,0.48542905,1,0.014570951
+data\raw\RealArt\RealArt\2-23-3-4-20-14-31m.jpg,0,0.48561466,1,0.014385343
+data\raw\RealArt\RealArt\why_we_connect_with_vincent_van_goghs_paintings_1050x700.jpg,0,0.48728412,1,0.012715876
+data\raw\RealArt\RealArt\peoplegrove-og_image.jpg,0,0.4878965,1,0.012103498
+data\raw\RealArt\RealArt\images43.jpg,0,0.48830086,1,0.01169914

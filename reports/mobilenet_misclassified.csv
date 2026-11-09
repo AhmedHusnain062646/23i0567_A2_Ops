@@ -1,0 +1,11 @@
+path,label,prob_ai,pred,conf
+data\raw\RealArt\RealArt\most-famous-paintings-by-jan-van-eyck.jpg,0,0.97899187,1,0.47899187
+data\raw\RealArt\RealArt\Captive-lion-hero-C2A9-George-Logan.jpg,0,0.8949702,1,0.39497018
+data\raw\RealArt\RealArt\02-still-for-america-room-loop-superJumbo.jpg,0,0.87090945,1,0.37090945
+data\raw\AiArtData\AiArtData\6324662e5ee3110438933c1b_COBE-Pink-Elephant-Midjourney-Article.jpg,1,0.17415436,0,0.32584566
+data\raw\RealArt\RealArt\a9cb4b9875143b1568ba519ea086af95.png,0,0.80555934,1,0.30555934
+data\raw\AiArtData\AiArtData\1pTojVbbfa1akdP6JfX0hHA.png,1,0.19559798,0,0.30440202
+data\raw\RealArt\RealArt\3-self-portraits-by-zanele-muholi.jpg,0,0.80308515,1,0.30308515
+data\raw\RealArt\RealArt\7ce6zbax23_WEB_257649.jpg,0,0.7854104,1,0.2854104
+data\raw\RealArt\RealArt\why_we_connect_with_vincent_van_goghs_paintings_1050x700.jpg,0,0.7681581,1,0.26815808
+data\raw\RealArt\RealArt\picturesque-scenery-waterfall-flowing-through-260nw-2360180703.jpg,0,0.76414996,1,0.26414996
