@@ -8,3 +8,5 @@ mlruns/
 *.db
 mlruns_toy/
 instance/
+tuner_toy/
+tuner_vg/
