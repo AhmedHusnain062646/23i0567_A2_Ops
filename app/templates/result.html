@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Result{% endblock %}
+{% block content %}
+<section class="card result">
+  <img class="preview" src="data:image/jpeg;base64,{{ preview }}" alt="uploaded image preview">
+  <div>
+    <h1 class="verdict {{ 'ai' if r.label == 'AI-generated' else 'real' }}">{{ r.label }}</h1>
+    <p class="big">{{ '%.1f' | format(r.confidence * 100) }}% confidence</p>
+    <ul>
+      <li>File: {{ filename }}</li>
+      <li>P(AI-generated): {{ '%.3f' | format(r.prob_ai) }} (decision threshold {{ '%.2f' | format(r.threshold) }})</li>
+      <li>Model: {{ r.model_name }} v{{ r.model_version }} &middot; {{ r.latency_ms }} ms</li>
+    </ul>
+    <p class="caveat"><strong>Caveat:</strong> this score is not a calibrated probability. Heavily edited or
+    compressed real photos can look "AI", and new generators may fool the model.</p>
+    <a class="btn" href="{{ url_for('index') }}">Check another</a>
+    <a class="btn alt" href="{{ url_for('history') }}">View history</a>
+  </div>
+</section>
+{% endblock %}

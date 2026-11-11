@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}History{% endblock %}
+{% block content %}
+<section class="card">
+  <h1>Prediction history</h1>
+  <p>{{ total }} request(s) logged; showing the latest {{ rows|length }}.</p>
+  {% if rows %}
+  <div class="scroll"><table>
+    <thead><tr><th>#</th><th>When (UTC)</th><th>File</th><th>Decision</th><th>Confidence</th><th>P(AI)</th>
+    <th>Model</th><th>Via</th><th>ms</th></tr></thead>
+    <tbody>{% for r in rows %}
+    <tr><td>{{ r.id }}</td><td>{{ r.created_at.strftime('%Y-%m-%d %H:%M:%S') }}</td><td>{{ r.filename }}</td>
+    <td class="{{ 'ai' if r.label == 'AI-generated' else 'real' }}">{{ r.label }}</td>
+    <td>{{ '%.1f' | format(r.confidence * 100) }}%</td><td>{{ '%.3f' | format(r.prob_ai) }}</td>
+    <td>{{ r.model_name }} v{{ r.model_version }}</td><td>{{ r.source }}</td><td>{{ r.latency_ms }}</td></tr>
+    {% endfor %}</tbody></table></div>
+  {% else %}<p>No requests yet. <a href="{{ url_for('index') }}">Analyse an image</a>.</p>{% endif %}
+</section>
+{% endblock %}
