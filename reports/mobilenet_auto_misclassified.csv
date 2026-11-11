@@ -1,0 +1,11 @@
+path,label,prob_ai,pred,conf
+data\raw\RealArt\RealArt\most-famous-paintings-by-jan-van-eyck.jpg,0,0.96241266,1,0.46241266
+data\raw\RealArt\RealArt\cat-with-ducklings.jpg,0,0.9468037,1,0.4468037
+data\raw\RealArt\RealArt\famous-portrait-paintings_wide-3-2-636b81a7177ce.png,0,0.8881681,1,0.3881681
+data\raw\RealArt\RealArt\3-self-portraits-by-zanele-muholi.jpg,0,0.8608097,1,0.36080968
+data\raw\RealArt\RealArt\why_we_connect_with_vincent_van_goghs_paintings_1050x700.jpg,0,0.8593658,1,0.35936582
+data\raw\AiArtData\AiArtData\Top-7-Amazing-Artworks-Meet-the-AI-Art-Makers-of-the-Future-AI-generated-eyes_face-of-a-woman.jpg,1,0.15394303,0,0.34605697
+data\raw\RealArt\RealArt\image14.jpeg,0,0.8323828,1,0.3323828
+data\raw\RealArt\RealArt\2-23-3-4-20-14-31m.jpg,0,0.82957613,1,0.32957613
+data\raw\AiArtData\AiArtData\can-artificial-intelligence-systems-like-dall-e-or-midjourney-perform-creative-tasks_8.jpg,1,0.20350692,0,0.29649308
+data\raw\AiArtData\AiArtData\robot-monitoring-dairy-farm-1200x800-1.jpg,1,0.20450513,0,0.29549485

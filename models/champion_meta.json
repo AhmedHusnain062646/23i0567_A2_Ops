@@ -2,7 +2,8 @@
   "img_size": 128,
   "threshold": 0.36,
   "model_name": "VisionGuard",
-  "model_version": "mobilenet-local",
-  "run_name": "mobilenet",
-  "note": "Copied from models/mobilenet.keras, the best local test ROC-AUC (0.807). Replace with src/export_champion.py after the registry alias is set."
+  "model_version": "2",
+  "run_name": "mobilenet_ftlr1e4-manual",
+  "run_id": "e872ccb1a6ef472595f2502a11572251",
+  "note": "Registry alias VisionGuard@champion (version 2). models/champion.keras is a copy of this run's file."
 }

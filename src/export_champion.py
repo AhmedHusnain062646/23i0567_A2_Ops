@@ -28,7 +28,9 @@ def main():
     mv = client.get_model_version_by_alias(MODEL_NAME, ALIAS)
     print(f"Champion is {MODEL_NAME} version {mv.version} (run {mv.run_id})")
     tmp = tempfile.mkdtemp()
-    local = mlflow.artifacts.download_artifacts(f"runs:/{mv.run_id}/model", dst_path=tmp)
+    # local = mlflow.artifacts.download_artifacts(f"runs:/{mv.run_id}/model", dst_path=tmp)
+    local = mlflow.artifacts.download_artifacts(
+    artifact_uri="models:/VisionGuard@champion", dst_path=tmp)
     keras_files = list(Path(local).rglob("*.keras")) or list(Path(local).rglob("*.h5"))
     if not keras_files:
         file_dir = mlflow.artifacts.download_artifacts(f"runs:/{mv.run_id}/model_file", dst_path=tmp)

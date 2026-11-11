@@ -1,0 +1,11 @@
+path,label,prob_ai,pred,conf
+data\raw\RealArt\RealArt\3-self-portraits-by-zanele-muholi.jpg,0,0.9631433,1,0.4631433
+data\raw\RealArt\RealArt\most-famous-paintings-by-jan-van-eyck.jpg,0,0.9597508,1,0.45975077
+data\raw\RealArt\RealArt\cat-with-ducklings.jpg,0,0.94180554,1,0.44180554
+data\raw\RealArt\RealArt\2-23-3-4-20-14-31m.jpg,0,0.8992381,1,0.3992381
+data\raw\RealArt\RealArt\famous-portrait-paintings_wide-3-2-636b81a7177ce.png,0,0.8884013,1,0.38840133
+data\raw\AiArtData\AiArtData\Top-7-Amazing-Artworks-Meet-the-AI-Art-Makers-of-the-Future-AI-generated-eyes_face-of-a-woman.jpg,1,0.1666747,0,0.3333253
+data\raw\RealArt\RealArt\young-girl-holding-chaffinch-upton-house-1336611.jpg,0,0.8278267,1,0.32782668
+data\raw\RealArt\RealArt\Gen-AI-Community-Forum_NC_Header.jpg,0,0.82225263,1,0.32225263
+data\raw\RealArt\RealArt\why_we_connect_with_vincent_van_goghs_paintings_1050x700.jpg,0,0.8157938,1,0.3157938
+data\raw\RealArt\RealArt\image14.jpeg,0,0.7883636,1,0.28836358
