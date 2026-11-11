@@ -1,0 +1,6 @@
+# Task 6.4 "BEFORE" image: deliberately unoptimised (full base, full tensorflow, pip cache, code copied first)
+FROM python:3.11
+WORKDIR /app
+COPY . .
+RUN pip install tensorflow flask flask-sqlalchemy psycopg2-binary pillow numpy requests
+CMD ["python", "-m", "app"]

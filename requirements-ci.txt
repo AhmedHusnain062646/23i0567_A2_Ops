@@ -1,0 +1,8 @@
+# CI installs no TensorFlow: tests use a fake predictor, so the pipeline stays fast.
+flask>=3.0
+flask-sqlalchemy>=3.1
+pillow
+numpy
+requests
+pytest
+ruff

@@ -18,8 +18,11 @@ mlflow.set_experiment("toy-fashion-mnist")
 
 tf.keras.utils.set_random_seed(42)
 (x, y), (xv, yv) = tf.keras.datasets.fashion_mnist.load_data()
-x, xv = x[:10000] / 255.0, xv[:2000] / 255.0
-y, yv = y[:10000], yv[:2000]
+x = (x[:10000] / 255.0).astype("float32")
+xv = (xv[:2000] / 255.0).astype("float32")
+y = y[:10000].astype("int32")
+yv = yv[:2000].astype("int32")
+print("dtypes:", x.dtype, y.dtype, xv.dtype, yv.dtype)
 
 model = tf.keras.Sequential([
     tf.keras.layers.Input((28, 28)), tf.keras.layers.Flatten(),
