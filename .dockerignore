@@ -1,0 +1,15 @@
+.git
+.github
+.venv
+.env
+data
+mlruns
+reports
+docs
+labs
+tests
+models
+*.md
+__pycache__
+*.pyc
+.dvc

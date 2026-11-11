@@ -1,0 +1,8 @@
+# Model API image (Task 7)
+tensorflow-cpu>=2.16,<2.20
+flask>=3.0
+flask-sqlalchemy>=3.1
+gunicorn>=22.0
+pillow
+numpy
+requests
