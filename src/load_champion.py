@@ -19,7 +19,11 @@ load_dotenv()
 
 MODEL_NAME = "VisionGuard"
 ALIAS = "champion"
-THRESHOLD = float(os.environ.get("VISIONGUARD_THRESHOLD", "0.36"))
+# THRESHOLD = float(os.environ.get("VISIONGUARD_THRESHOLD", "0.36"))
+import json, pathlib
+_m = pathlib.Path("models/champion_meta.json")
+_default = json.loads(_m.read_text(encoding="utf-8")).get("threshold", 0.5) if _m.exists() else 0.5
+THRESHOLD = float(os.environ.get("VISIONGUARD_THRESHOLD", _default))
 
 def load_model():
     mlflow.set_tracking_uri(os.environ["MLFLOW_TRACKING_URI"])
