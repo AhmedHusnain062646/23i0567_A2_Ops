@@ -10,3 +10,4 @@ mlruns_toy/
 instance/
 tuner_toy/
 tuner_vg/
+!models/champion.keras

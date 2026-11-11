@@ -8,7 +8,9 @@ reports
 docs
 labs
 tests
-models
+models/*
+!models/champion.keras
+!models/champion_meta.json
 *.md
 __pycache__
 *.pyc
