@@ -1,0 +1,11 @@
+path,label,prob_ai,pred,conf
+data\raw\RealArt\RealArt\AdobeStock_502229899.jpeg,0,0.86243105,1,0.36243105
+data\raw\AiArtData\AiArtData\2023spring-ai-wildlife.1024-2.jpg,1,0.15541963,0,0.34458035
+data\raw\RealArt\RealArt\most-famous-paintings-by-jan-van-eyck.jpg,0,0.8377588,1,0.33775878
+data\raw\RealArt\RealArt\cat-with-ducklings.jpg,0,0.83342916,1,0.33342916
+data\raw\AiArtData\AiArtData\WTV_AI_Split_1000x562_Klimt.jpg,1,0.17306075,0,0.32693925
+data\raw\RealArt\RealArt\hero-palettes-inspired-by-paintings.png,0,0.8189949,1,0.31899488
+data\raw\RealArt\RealArt\why_we_connect_with_vincent_van_goghs_paintings_1050x700.jpg,0,0.8003953,1,0.3003953
+data\raw\RealArt\RealArt\3-self-portraits-by-zanele-muholi.jpg,0,0.7580631,1,0.25806308
+data\raw\RealArt\RealArt\nature-scenery.jpg,0,0.7391274,1,0.2391274
+data\raw\RealArt\RealArt\file-20231005-16-1flnlj.jpg,0,0.7346561,1,0.2346561

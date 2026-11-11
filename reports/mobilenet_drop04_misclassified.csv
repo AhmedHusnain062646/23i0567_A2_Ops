@@ -1,0 +1,11 @@
+path,label,prob_ai,pred,conf
+data\raw\RealArt\RealArt\most-famous-paintings-by-jan-van-eyck.jpg,0,0.93120515,1,0.43120515
+data\raw\RealArt\RealArt\cat-with-ducklings.jpg,0,0.89147854,1,0.39147854
+data\raw\RealArt\RealArt\why_we_connect_with_vincent_van_goghs_paintings_1050x700.jpg,0,0.87150073,1,0.37150073
+data\raw\RealArt\RealArt\3F302C18-1DA6-4372-8E313E2FF2CF4D86_source.png,0,0.8392882,1,0.33928818
+data\raw\RealArt\RealArt\Jackson-Kania-Montgomery-proximate-leaders-change-592x333.jpg,0,0.8297558,1,0.32975578
+data\raw\RealArt\RealArt\famous-portrait-paintings_wide-3-2-636b81a7177ce.png,0,0.8073574,1,0.30735737
+data\raw\RealArt\RealArt\image14.jpeg,0,0.79983336,1,0.29983336
+data\raw\RealArt\RealArt\Captive-lion-hero-C2A9-George-Logan.jpg,0,0.24258955,1,0.25741047
+data\raw\RealArt\RealArt\image16.jpeg,0,0.2473582,1,0.2526418
+data\raw\RealArt\RealArt\14_1110x.png,0,0.74028504,1,0.24028504

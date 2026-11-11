@@ -1,0 +1,8 @@
+tags.mlflow.runName,params.model,params.img_size,params.lr_stage1,params.dropout,params.seed,metrics.final_val_loss_best,metrics.test_roc_auc,metrics.test_f1,metrics.test_recall,metrics.test_precision,metrics.test_accuracy
+mobilenet_manual-manual,mobilenet,128,0.001,,42,0.5822,0.7991,0.7449,0.9125,0.6293,0.6575
+mobilenet_img160-manual,mobilenet,160,0.001,0.2,42,0.6763,0.7447,0.738,0.8625,0.6449,0.6644
+mobilenet_drop04-manual,mobilenet,128,0.001,0.4,42,0.6526,0.6962,0.724,1.0,0.5674,0.5822
+mobilenet_lr5e4-manual,mobilenet,128,0.0005,0.2,42,0.6596,0.6629,0.7273,1.0,0.5714,0.589
+baseline_manual-manual,baseline,128,0.001,0.3,42,0.6972,0.5097,0.7163,0.9625,0.5704,0.5822
+mobilenet_lr5e4-manual,mobilenet,128,0.0005,0.2,42,,,,,,
+mobilenet_auto-auto,,,,,,,,,,,

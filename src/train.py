@@ -25,11 +25,15 @@ ap.add_argument("--ft-lr", type=float, default=1e-5)
 ap.add_argument("--seed", type=int, default=42)
 ap.add_argument("--track", choices=["off", "manual", "auto"], default="off")
 ap.add_argument("--run-name", default=None, help="defaults to the model name")
+ap.add_argument("--dropout", type=float, default=None, help="override dropout (baseline=0.3, mobilenet=0.2)")
+ap.add_argument("--img-size", type=int, default=None, help="override image size (default: 128)")
 args = ap.parse_args()
 
 SEED = args.seed
 tf.keras.utils.set_random_seed(SEED)
 os.environ["PYTHONHASHSEED"] = str(SEED)
+if args.img_size is not None:
+    data.IMG_SIZE = args.img_size
 Path("models").mkdir(exist_ok=True)
 Path("reports/figures").mkdir(parents=True, exist_ok=True)
 
@@ -52,7 +56,9 @@ if args.track != "off":
                            "epochs_stage1": args.epochs, "epochs_stage2": args.ft_epochs,
                            "lr_stage1": args.lr, "lr_stage2": args.ft_lr, "seed": SEED,
                            "loss": "binary_crossentropy", "optimizer": "adam",
-                           "augmentation": "flip,rot0.05,zoom0.1,contrast0.1"})
+                           "augmentation": "flip,rot0.05,zoom0.1,contrast0.1",
+                           "dropout": args.dropout if args.dropout is not None else (
+                               0.3 if name == "baseline" else 0.2)})
 
 class EpochLogger(tf.keras.callbacks.Callback):
     """Manual logging: one MLflow metric point per epoch, step continues across stages."""
@@ -95,7 +101,11 @@ def plot(h, title, fname):
           f"val_acc {h['val_accuracy'][best]:.4f}")
     return best
 
-model = build_baseline(data.IMG_SIZE) if name == "baseline" else build_mobilenet(data.IMG_SIZE)
+_dropout_kw = {} if args.dropout is None else {"dropout": args.dropout}
+if name == "baseline":
+    model = build_baseline(data.IMG_SIZE, **_dropout_kw)
+else:
+    model = build_mobilenet(data.IMG_SIZE, **_dropout_kw)
 compile_model(model, args.lr)
 model.summary()
 

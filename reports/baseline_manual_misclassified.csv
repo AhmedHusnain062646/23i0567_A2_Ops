@@ -1,0 +1,11 @@
+path,label,prob_ai,pred,conf
+data\raw\AiArtData\AiArtData\Screen_Shot_2023-01-22_at_5.33.01_PM.png,1,0.45660785,0,0.04339215
+data\raw\AiArtData\AiArtData\name320.png,1,0.46081752,0,0.039182484
+data\raw\AiArtData\AiArtData\HD-wallpaper-ai-landscape-2023-digital-art.jpg,1,0.4622766,0,0.037723392
+data\raw\RealArt\RealArt\male-portraits-how-to-photograph-men.jpg,0,0.46733606,1,0.03266394
+data\raw\RealArt\RealArt\Portrait197a-1280x640.jpg,0,0.4682098,1,0.031790197
+data\raw\RealArt\RealArt\12-reasons-why-people-like-your-posts-on-social-media-001.jpg,0,0.47099146,1,0.029008538
+data\raw\RealArt\RealArt\nature-scenery.jpg,0,0.47183308,1,0.02816692
+data\raw\RealArt\RealArt\99050588b2b7c5aaa581c808c1b687c6.jpg,0,0.47227427,1,0.027725726
+data\raw\RealArt\RealArt\23b94bfecddc840c0ab5c4eaeaeeb974.jpg,0,0.47327018,1,0.026729822
+data\raw\RealArt\RealArt\2-23-3-4-20-14-31m.jpg,0,0.4741113,1,0.025888711

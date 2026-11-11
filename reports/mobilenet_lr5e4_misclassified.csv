@@ -1,0 +1,11 @@
+path,label,prob_ai,pred,conf
+data\raw\RealArt\RealArt\most-famous-paintings-by-jan-van-eyck.jpg,0,0.92266446,1,0.42266446
+data\raw\RealArt\RealArt\cat-with-ducklings.jpg,0,0.8842302,1,0.3842302
+data\raw\RealArt\RealArt\3F302C18-1DA6-4372-8E313E2FF2CF4D86_source.png,0,0.85780954,1,0.35780954
+data\raw\RealArt\RealArt\why_we_connect_with_vincent_van_goghs_paintings_1050x700.jpg,0,0.84355474,1,0.34355474
+data\raw\RealArt\RealArt\Jackson-Kania-Montgomery-proximate-leaders-change-592x333.jpg,0,0.8324566,1,0.3324566
+data\raw\RealArt\RealArt\image14.jpeg,0,0.7979741,1,0.2979741
+data\raw\RealArt\RealArt\famous-portrait-paintings_wide-3-2-636b81a7177ce.png,0,0.78425276,1,0.28425276
+data\raw\RealArt\RealArt\image16.jpeg,0,0.22424291,1,0.27575707
+data\raw\RealArt\RealArt\02-still-for-america-room-loop-superJumbo.jpg,0,0.24241345,1,0.25758654
+data\raw\RealArt\RealArt\michael_b._jordan_cannes_2018.jpg,0,0.25117996,1,0.24882004
