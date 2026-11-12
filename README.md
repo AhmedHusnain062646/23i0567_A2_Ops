@@ -11,7 +11,7 @@ the model API is deployed to the cloud.
 |---|---|
 | GitHub | https://github.com/AhmedHusnain062646/23i0567_A2_Ops |
 | DagsHub | https://dagshub.com/ahmed0567/23i0567_A2_Ops |
-| Live model API | `TODO: https://<your-service>.onrender.com` |
+| Live model API | https://two3i0567-a2-ops.onrender.com |
 
 ## Repository layout
 
